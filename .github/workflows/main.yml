@@ -9,7 +9,7 @@ on:
     - cron: '0 0 1 * *'  # every month
 
 env:
-  IMAGE_NAME: ghcr.io/${{ github.repository }}
+  IMAGE_NAME: ghcr.io/cat-ling/tailscale 
 
 jobs:
   build-and-push:
